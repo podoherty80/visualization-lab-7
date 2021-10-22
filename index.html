@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
+    
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <script src="https://unpkg.com/topojson@3"></script>
+  </head>
+  <body>
+    <h1>
+        Airport Connections
+    </h1>
+    <div>
+        <input type="radio" id="force" name="type" value="force" checked/> 
+        <label for="force">Force</label>
+        <input type="radio" id="map" name="type" value="map"/> 
+        <label for="map">Map</label><br>
+    </div>
+    <div class="chart">
+	    <!-- You will append a SVG here-->
+    </div>
+  </body>
+</html>
